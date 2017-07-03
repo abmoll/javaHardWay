@@ -17,6 +17,7 @@ public class PrintingChoices {
  
          System.out.println();
          System.out.println( "This" + " " + "is" + " " + "a" + " test." );
+         System.out.println("I am learning " + "Java the " + "hard way!");
 
 	}
 }
