@@ -15,4 +15,4 @@ public class EscapeSequencesComments {
          System.out.print( "I hope you understand \"escape sequences\" now.\n" );
          // and comments. :)
      }
-}
+} /* block comment does not work when placed inside java keyword */
