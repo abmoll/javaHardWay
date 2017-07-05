@@ -37,7 +37,10 @@ import java.util.Scanner;
          Also, if you enter numeric when program expects a string, I would guess 
          this is fine because a numeric is still a string character. */
          
-         
+         String favBook;
+         System.out.println("What is your favorite book?");
+         favBook = ketboard.next();
+         System.out.println(favBook + "is a page turner!");
          
      }
  }
