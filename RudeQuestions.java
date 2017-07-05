@@ -39,8 +39,8 @@ import java.util.Scanner;
          
          String favBook;
          System.out.println("What is your favorite book?");
-         favBook = ketboard.next();
-         System.out.println(favBook + "is a page turner!");
+         favBook = keyboard.next();
+         System.out.println(favBook + " is a page turner!");
          
      }
  }
