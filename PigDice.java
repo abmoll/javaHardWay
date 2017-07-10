@@ -23,7 +23,7 @@ import java.util.Scanner;
                  }
                  else {
                      turnTotal += roll;
-                     System.out.print( "\tYou have " + turnTotal + " points" );
+                     System.out.print( "\tYou have " + turnTotal + "potnetial points" );
                      System.out.print( " so far this round.\n" );
                      System.out.print( "\tWould you like to \"roll\" again" );
                      System.out.print( " or \"hold\"? " );
@@ -47,16 +47,17 @@ import java.util.Scanner;
                      else {
                          turnTotal += roll;
                          System.out.print( "\tComputer has " + turnTotal );
-                         System.out.print( " points so far this round.\n" );
-                         ctot += roll;
-                         System.out.println("Computer has " + ctot + " total points.");
-                         if ( turnTotal < 20 && ctot < 100 ) {
+                         System.out.print( " potential points so far this round.\n" );
+                         //ctot += roll;
+                         //System.out.println("Computer has " + ctot + " total points.");
+                         if ( turnTotal < 20 && (turnTotal + ctot) < 100 ) {
                              System.out.println( "\tComputer will roll again." );
                          }
                      }
-                 } while ( roll != 1 && turnTotal < 20 && ctot < 100);
+                 } while ( roll != 1 && turnTotal < 20 && (turnTotal + ctot) < 100);
+                 
  
-                 //ctot += turnTotal;
+                 ctot += turnTotal;
                  System.out.print( "\tComputer ends the round with " );
                  System.out.print( ctot + " points.\n" );
              }
