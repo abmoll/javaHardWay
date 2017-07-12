@@ -1,0 +1,4 @@
+Parameters vs Arguments
+A parameter is a variable in the definition of the method. You use the parameters when you define the method.
+
+When a method is called, the arguments are the data you pass into the method's parameters. Argument is the actual value of this variable that gets passed to function. You use the arguments when you call the method.

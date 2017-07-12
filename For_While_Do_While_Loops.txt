@@ -1,0 +1,4 @@
+For, While, and Do While Loops
+- A For loop repeats a statement as long as a given condition is true. It tests the condition before executing the loop body.
+- A While loop executes the statement or block of statements as long as the boolean expression is true and terminates when the boolean condition is false. It evaluates the condition at the start of the code block.
+- A Do While loop always executes the statement at least once then repeats only if the condition is true. It evaluates the condition at the end of the block of code. You would use a while loop if you want the code to execute at least once. For example if in a dice game, rolling a 1 terminates the game, you would want to roll at least once before checking the roll for a 1 and ending the game.

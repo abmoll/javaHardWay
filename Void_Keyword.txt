@@ -1,0 +1,3 @@
+Void_return_type
+
+Methods in Java can return a value or simply perform some function but not return any value.  The void keyword simply indicates that a method is not returning any value.  A good example of the difference in real life would be a method that starts a car (completes a task but returns no value i.e. void) vs. a method that returns the license plate number of a car. 

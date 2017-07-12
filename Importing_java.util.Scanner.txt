@@ -1,0 +1,3 @@
+Importing java.util.Scanner
+
+When you import the java.util.Scanner class into your code, you can read in user input for primitive types. The functionality comes from the Java util package that is loaded with the Java API. Java refers to the Java API spec for the Java platform.  This API provides a library of pre-built Java classes.
