@@ -1,4 +1,0 @@
-Difference between =, ==, and .equals
-In Java, = is used to set the value of a variable, i.e. x = 5 or x = c + 5.
-== is used to compare the values of two primitives such as int or booleans, i.e. if (x==5) or if (y == true)
-.equals is used to compare the values in a string object, i.e. if (z.equals("zebra"))
